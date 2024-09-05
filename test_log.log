@@ -1,0 +1,40 @@
+2024-09-05 10:59:13,231 - INFO - Starting Functional Test: Search, Add to Cart, and Checkout
+2024-09-05 10:59:17,891 - ERROR - Functional Test failed: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="search_query_top"]"}
+  (Session info: MicrosoftEdge=128.0.2739.63); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6905A3A12+10594]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF690540439+323353]
+	(No symbol) [0x00007FF69035F16E]
+	(No symbol) [0x00007FF6903A656E]
+	(No symbol) [0x00007FF6903A65F5]
+	(No symbol) [0x00007FF6903E4157]
+	(No symbol) [0x00007FF6903C7BBF]
+	(No symbol) [0x00007FF69039BEDD]
+	(No symbol) [0x00007FF6903E1B07]
+	(No symbol) [0x00007FF6903C77E3]
+	(No symbol) [0x00007FF69039B3EC]
+	(No symbol) [0x00007FF69039A8CD]
+	(No symbol) [0x00007FF69039AFB1]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF69072E4B4+918756]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6904CC9BF+54575]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6904BF557+199]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF69072D23D+914029]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF690547EC1+354721]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF690544374+339540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6905444A9+339849]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF69053AD6C+301132]
+	BaseThreadInitThunk [0x00007FFFF113257D+29]
+	RtlUserThreadStart [0x00007FFFF33CAF28+40]
+
+2024-09-05 10:59:20,112 - INFO - Functional Test completed.
+2024-09-05 10:59:20,112 - INFO - Starting Login Test
+2024-09-05 10:59:24,144 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000229E3177610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2a200f3348f69a6e1bcde20165a0d3f0/url
+2024-09-05 10:59:28,196 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000229E317C750>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2a200f3348f69a6e1bcde20165a0d3f0/url
+2024-09-05 10:59:32,263 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000229E317D1D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2a200f3348f69a6e1bcde20165a0d3f0/url
+2024-09-05 10:59:40,364 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000229E317E890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2a200f3348f69a6e1bcde20165a0d3f0/screenshot
+2024-09-05 10:59:44,426 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000229E317EF90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2a200f3348f69a6e1bcde20165a0d3f0/screenshot
+2024-09-05 10:59:48,483 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000229E317F510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2a200f3348f69a6e1bcde20165a0d3f0/screenshot
+2024-09-05 10:59:56,606 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000229E3184B10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2a200f3348f69a6e1bcde20165a0d3f0
+2024-09-05 11:00:00,642 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000229E31851D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2a200f3348f69a6e1bcde20165a0d3f0
+2024-09-05 11:00:04,723 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000229E3185950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2a200f3348f69a6e1bcde20165a0d3f0
+2024-09-05 11:00:12,864 - INFO - Login Test completed.
